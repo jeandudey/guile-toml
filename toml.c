@@ -163,11 +163,11 @@ SCM_DEFINE (scm_toml_value_in, "value-in", 2, 0, 0,
 static void
 scm_toml_table_finalize (SCM table)
 {
-    toml_table_t *tab;
+  toml_table_t *tab;
 
-    tab = scm_foreign_object_ref (table, 0);
-    if (tab)
-      toml_free (tab);
+  tab = scm_foreign_object_ref (table, 0);
+  if (tab)
+    toml_free (tab);
 }
 
 void
