@@ -1,0 +1,10 @@
+(specifications->manifest
+  '("autoconf"
+    "automake"
+    "bear"
+    "gcc-toolchain"
+    "guile"
+    "libtool"
+    "pkg-config"
+    "reuse"
+    "tomlc99"))
